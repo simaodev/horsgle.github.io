@@ -24,8 +24,14 @@ p{
 }
 
 .secao-destacada{
-    background-color: rgba(0, 173, 239, 1);
+    background-color: white;
+    height: 500px
 }
+
+.secao-about{
+    height: 500px
+}
+
 /* Alinhando título da seção destacada  */
 .secao-destacada h2{
     text-align: center;
@@ -34,4 +40,27 @@ p{
 /* Só removendo o espaçamento superior do footer  */
 .page-footer{
     padding-top: 0;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  color: #ebb100ff;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
 }
