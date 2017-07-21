@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Só para dar espaçamento na primeira frase dos parágrafos  */
+p{
+    text-indent: 2rem;
+}
+
+/* Alinhando título principal, mas pode ser usado em outros locais  */
+.banner{
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secao-destacada{
+    background-color: rgba(0, 173, 239, 1);
+}
+/* Alinhando título da seção destacada  */
+.secao-destacada h2{
+    text-align: center;
+}
+
+/* Só removendo o espaçamento superior do footer  */
+.page-footer{
+    padding-top: 0;
+}
