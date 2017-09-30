@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Horsgles Development</title>
 
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" href="css/horsgle.css">
+  <script src="js/imgix.min.js"></script>
 </head>
 <body>
 
@@ -22,9 +23,8 @@
           <div class="container">
             <a href="#" class="brand-logo"><img class="icon responsive-img z-depth-3" style="border-radius: 100px;" src="images/horsgle2.svg" alt="Horsgle"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="#">Menu 01</a></li>
-              <li><a href="#">Menu 02</a></li>
-              <li><a href="#">Menu 03</a></li>
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">Sign up</a></li>
             </ul>
           </div>
         </div>
@@ -93,7 +93,18 @@
   </div> -->
 
   <div class="parallax">
-    <img src="images/g31312.png">
+
+    <img
+    ix-path="images/g31312.png"
+    ix-params='{
+      "w": 300,
+      "h": 500,
+      "fit": "crop",
+      "crop": "right"
+    }'
+    alt="A hot air balloon on a sunny day"
+    >
+    <!-- <img src="images/g31312.png"> -->
   </div>
   <!-- <div class="parallax">
     <div class="slider ">
