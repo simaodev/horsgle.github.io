@@ -89,6 +89,55 @@ nav .brand-logo {
   margin-top: 1em;
 }
 
+.modal {
+  left: 0;
+  right: 0;
+  padding: 0;
+  /* max-height: 40%; */
+  width: 35%;
+  will-change: top, opacity;
+}
+
+/* label color */
+ .input-field label {
+   color: #1976d2 !important;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus {
+   color: #1976d2 !important;
+ }
+
+ .input-field input[type=textarea]:focus {
+   color: #1976d2 !important;
+ }
+ /* label underline focus color */
+ .input-field input:focus {
+   border-bottom: 1px solid #1976d2 !important;
+   box-shadow: 0 1px 0 0 #1976d2 !important;
+ }
+ .input-field textarea:focus {
+   border-bottom: 1px solid #1976d2 !important;
+   box-shadow: 0 1px 0 0 #1976d2 !important;
+ }
+ /* valid color */
+ /*.input-field input[type=text].valid {
+   border-bottom: 1px solid #000 !important;
+   box-shadow: 0 1px 0 0 #000 !important;
+ }*/
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid #000 !important;
+   box-shadow: 0 1px 0 0 #000 !important;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #1976d2 !important;
+ }
+ /* icon prefix color */
+ .input-field .prefix {
+   color: #bbdefb !important;
+ }
+
 @media only screen and (min-width: 601px){
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         height: 6em;
