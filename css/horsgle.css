@@ -64,3 +64,34 @@ p{
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
 }
+
+nav {
+    height: 6em;
+    line-height: 6em;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 6em;
+    line-height: 6em;
+}
+
+nav .button-collapse i {
+    height: 6em;
+    line-height: 3em;
+}
+
+nav .brand-logo {
+    /* font-size: 1.6rem; */
+}
+
+.logonavleft {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 6em;
+        line-height: 6em;
+    }
+}

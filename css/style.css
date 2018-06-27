@@ -22,6 +22,7 @@
   padding-top: 10px;
 
 }
+
 .imagem{
   text-align: left;
 }
@@ -46,5 +47,23 @@ main {
 }
 
 .parallax-container {
-     height: 500px;
+     height: 50em;
+}
+
+@media screen and (max-width: 768px) {
+nav .brand-logo{
+    margin-top:0.5em;
+    /* margin-left:0.1em; */
+    left: 50%;
+  }
+}
+
+/*
+ Com uma largura mínima de 992 pixels. Monitores por exemplo.
+*/
+@media screen and (min-width: 769px) {
+  .brand-logo{
+    margin-top:0.5em;
+    margin-left:5em;
+  }
 }
