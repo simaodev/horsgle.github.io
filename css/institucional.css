@@ -1,0 +1,18 @@
+.secao-experiencia{
+  background-color: white;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em
+  padding-bottom: 2em;
+}
+
+.secao-capa {
+     height: 45em !important;
+}
+
+.desc-caption {
+  padding-left: 0.75em;
+}
+.title-caption {
+  font-weight: 100;
+}

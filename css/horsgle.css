@@ -1,3 +1,8 @@
+@font-face{
+    font-family: roboto-regular;
+    src:url(../fonts/roboto/Roboto-Regular.woff);
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -13,6 +18,10 @@ p{
     text-indent: 2rem;
 }
 
+.ultra-light {
+  style="font-weight: 100;
+}
+
 /* Alinhando título principal, mas pode ser usado em outros locais  */
 .banner{
     color: white;
@@ -21,6 +30,10 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.carousel-capa {
+     height: 50em !important;
 }
 
 .secao-destacada{
@@ -93,14 +106,7 @@ nav .brand-logo {
   margin-top: 1em;
 }
 
-.modal {
-  left: 0;
-  right: 0;
-  padding: 0;
-  /* max-height: 40%; */
-  width: 35%;
-  will-change: top, opacity;
-}
+
 
 /* label color */
  .input-field label {
@@ -142,9 +148,17 @@ nav .brand-logo {
    color: #bbdefb !important;
  }
 
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 769px){
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         height: 6em;
         line-height: 6em;
+    }
+    .modal {
+      left: 0;
+      right: 0;
+      padding: 0;
+      /* max-height: 40%; */
+      width: 35%;
+      will-change: top, opacity;
     }
 }

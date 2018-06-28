@@ -46,10 +46,6 @@ main {
   padding-top: 0;
 }
 
-.parallax-container {
-     height: 50em;
-}
-
 @media screen and (max-width: 768px) {
 nav .brand-logo{
     margin-top:0.5em;
