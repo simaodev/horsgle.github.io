@@ -9,6 +9,11 @@
 .center{
 
 }
+
+#particles-js {
+  background: #1169e233;
+}
+
 .logo{
   image-orientation: center;
   background-image: url("../images/marketing.png");
@@ -52,6 +57,9 @@ nav .brand-logo{
     /* margin-left:0.1em; */
     left: 50%;
   }
+  #particles-js {
+    height: 46em;
+  }
 }
 
 /*
@@ -61,5 +69,8 @@ nav .brand-logo{
   .brand-logo{
     margin-top:0.5em;
     margin-left:5em;
+  }
+  #particles-js {
+    height: 45.6em;
   }
 }

@@ -36,6 +36,13 @@ p{
      height: 50em !important;
 }
 
+.caption-capa {
+  padding-top: 5em;
+  font-weight: 100;
+  position: absolute;
+  padding-left: 6em
+}
+
 .secao-destacada{
     background-color: white;
     /* height: 500px */

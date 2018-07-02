@@ -26,6 +26,10 @@ $(document).ready(function(){
       autoWidth:true
     });
 
+    particlesJS.load('particles-js', './js/particlesjs.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+
     $(".button-collapse").sideNav();
     $('.modal').modal({
       dismissible: true, // Modal can be dismissed by clicking outside of the modal
