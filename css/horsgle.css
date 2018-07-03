@@ -119,12 +119,18 @@ nav .brand-logo {
 }
 
 
+@media only screen and (max-width: 768px){
+    .caption-capa {
+      padding-top: 2em;
+    }
+}
 
- @media only screen and (min-width: 769px){
+
+@media only screen and (min-width: 769px){
      .caption-capa {
-       padding-left: 2em
+       padding-left: 2em;
      }
- }
+}
 
 @media only screen and (min-width: 1025px){
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
