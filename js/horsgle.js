@@ -23,7 +23,18 @@ $(document).ready(function(){
       autoplay:true,
       smartSpeed: 1000,
       autoplayTimeout:4000,
-      autoWidth:true
+      autoWidth:true,
+      responsive:{
+        0:{
+          items:1
+        },
+        600:{
+          items:3
+        },
+        1000:{
+          items:5
+        }
+      }
     });
 
     particlesJS.load('particles-js', './js/particlesjs.json', function() {
