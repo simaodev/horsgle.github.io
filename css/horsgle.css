@@ -45,7 +45,8 @@ p{
 
 .secao-destacada{
     background-color: white;
-    /* height: 500px */
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .secao-about{
@@ -113,7 +114,38 @@ nav .brand-logo {
   margin-top: 1em;
 }
 
+.title-caption {
+  font-weight: 100;
+}
 
+
+
+ @media only screen and (min-width: 769px){
+     .caption-capa {
+       padding-left: 2em
+     }
+ }
+
+@media only screen and (min-width: 1025px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 6em;
+        line-height: 6em;
+    }
+    .modal {
+      left: 0;
+      right: 0;
+      padding: 0;
+      /* max-height: 40%; */
+      width: 35%;
+      will-change: top, opacity;
+    }
+    .caption-capa {
+      padding-left: 6em
+    }
+}
+
+
+/*---- LABELS ----*/
 
 /* label color */
  .input-field label {
@@ -154,21 +186,3 @@ nav .brand-logo {
  .input-field .prefix {
    color: #bbdefb !important;
  }
-
-@media only screen and (min-width: 769px){
-    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-        height: 6em;
-        line-height: 6em;
-    }
-    .modal {
-      left: 0;
-      right: 0;
-      padding: 0;
-      /* max-height: 40%; */
-      width: 35%;
-      will-change: top, opacity;
-    }
-    .caption-capa {
-      padding-left: 6em
-    }
-}
