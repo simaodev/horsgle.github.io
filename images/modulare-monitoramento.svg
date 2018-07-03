@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="73.229149mm"
+   height="52.916668mm"
+   viewBox="0 0 73.229149 52.916668"
+   version="1.1"
+   id="svg4731"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="modulare-monitoramento.svg">
+  <defs
+     id="defs4725" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="225.34029"
+     inkscape:cy="279.53744"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4728">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(3.6815307,-149.96727)">
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       id="text4613"
+       y="197.69496"
+       x="0.25517589"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.61419773px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.15730217"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.15730217"
+         y="197.69496"
+         x="0.25517589"
+         id="tspan4611"
+         sodipodi:role="line">MODULARE MONITORAMENTO</tspan></text>
+    <path
+       id="path4615"
+       d="m 32.933079,157.86593 c 4.98652,0 9.03902,4.00731 9.03902,8.96371 0,6.71901 -9.03902,16.64688 -9.03902,16.64688 0,0 -9.03904,-9.92787 -9.03904,-16.64688 0,-4.9564 4.0525,-8.96371 9.03904,-8.96371 m 0,6.02603 a 3.0130104,3.0130104 0 0 0 -3.01303,3.013 3.0130104,3.0130104 0 0 0 3.01303,3.01301 3.0130104,3.0130104 0 0 0 3.01303,-3.01301 3.0130104,3.0130104 0 0 0 -3.01303,-3.013 m 12.05204,19.58456 c 0,3.32937 -5.39329,6.02602 -12.05204,6.02602 -6.65877,0 -12.052066,-2.69665 -12.052066,-6.02602 0,-1.9434 1.83792,-3.67587 4.685266,-4.77562 l 0.96414,1.37092 c -1.62703,0.67793 -2.63638,1.61196 -2.63638,2.65145 0,2.07897 4.0525,3.76626 9.03904,3.76626 4.98652,0 9.03902,-1.68729 9.03902,-3.76626 0,-1.03949 -1.00935,-1.97352 -2.63638,-2.65145 l 0.96415,-1.37092 c 2.84728,1.09975 4.68525,2.83222 4.68525,4.77562 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:1.50650501"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
