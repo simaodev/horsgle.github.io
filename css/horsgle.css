@@ -40,7 +40,12 @@ p{
   padding-top: 5em;
   font-weight: 100;
   position: absolute;
-  padding-left: 0.1em
+  padding-left: 0.1em;
+}
+
+.caption-produtos {
+  font-weight: 100;
+  position: absolute;
 }
 
 .secao-destacada{
@@ -101,9 +106,7 @@ nav .button-collapse i {
     line-height: 3em;
 }
 
-nav .brand-logo {
-    /* font-size: 1.6rem; */
-}
+
 
 .logonavleft {
   margin-left: 2em;
@@ -119,37 +122,49 @@ nav .brand-logo {
 }
 
 
-@media only screen and (max-width: 768px){
-    .caption-capa {
-      padding-top: 2em;
-    }
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+
 }
 
-
-@media only screen and (min-width: 769px){
-     .caption-capa {
-       padding-left: 2em;
-     }
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 992px) {
+  .caption-capa {
+    padding-top: 3em;
+  }
 }
 
-@media only screen and (min-width: 1025px){
-    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-        height: 6em;
-        line-height: 6em;
-    }
-    .modal {
-      left: 0;
-      right: 0;
-      padding: 0;
-      /* max-height: 40%; */
-      width: 35%;
-      will-change: top, opacity;
-    }
-    .caption-capa {
-      padding-left: 6em
-    }
+/* Tablet em retrato a paisagem e desktop */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .caption-capa {
+    padding-left: 2em;
+  }
+  .caption-produtos {
+    padding-left: 4em
+  }
 }
 
+/* Desktop grande */
+@media (min-width: 1025px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 6em;
+      line-height: 6em;
+  }
+  .modal {
+    left: 0;
+    right: 0;
+    padding: 0;
+    /* max-height: 40%; */
+    width: 35%;
+    will-change: top, opacity;
+  }
+  .caption-capa {
+    padding-left: 5.5em;
+  }
+  .caption-produtos {
+    padding-left: 10em
+  }
+}
 
 /*---- LABELS ----*/
 
