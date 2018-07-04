@@ -18,6 +18,18 @@
   padding-bottom: 2em;
 }
 
+.secao-somos {
+  background-color: white;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.secao-somos-conteudo {
+  margin-left: 8em;
+}
+
 .desc-caption {
   padding-left: 0.75em;
 }
