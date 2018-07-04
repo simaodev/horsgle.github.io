@@ -2,12 +2,20 @@
   background-color: white;
   padding-top: 2em;
   padding-left: 1em;
-  padding-right: 1em
+  padding-right: 1em;
   padding-bottom: 2em;
 }
 
 .secao-capa {
      height: 45em !important;
+}
+
+.secao-mensagem {
+  background-color: #1e88e5;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
 }
 
 .desc-caption {
