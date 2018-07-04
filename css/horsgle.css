@@ -138,6 +138,11 @@ nav .button-collapse i {
   .caption-capa {
     padding-top: 3em;
   }
+  .card-carousel {
+    box-shadow:0 0 0 0 !important;
+    background: rgba(0,0,0,0) !important;
+    padding-right: 0.5em;
+  }
 }
 
 /* Tablet em retrato a paisagem e desktop */
