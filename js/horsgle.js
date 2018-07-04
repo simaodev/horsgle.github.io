@@ -23,7 +23,6 @@ $(document).ready(function(){
       autoplay:true,
       smartSpeed: 1000,
       autoplayTimeout:4000,
-      autoWidth:true,
       responsive:{
         0:{
           items:1
