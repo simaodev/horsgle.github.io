@@ -25,3 +25,19 @@
 .title-caption {
   font-weight: 100;
 }
+
+.secao-fabrica{
+  background-color: white;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.secao-alocacao{
+  background-color: #1e88e5;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
