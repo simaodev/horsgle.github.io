@@ -41,3 +41,52 @@
   padding-right: 1em;
   padding-bottom: 2em;
 }
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 992px) {
+  .capa-fabrica{
+    height: 30em !important;
+  }
+  .desc-caption {
+    padding-left: 0em;
+  }
+  .caption-capa {
+    margin-top: 1em !important;
+    font-weight: 100;
+    position: absolute;
+    margin-left: 0em;
+  }
+  .description-capa {
+    margin-top: 7em;
+    font-weight: 100;
+    position: absolute;
+    margin-left: 0em;
+  }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .capa-fabrica{
+    height: 30em !important;
+  }
+  .desc-caption {
+    padding-left: 0em;
+  }
+  .caption-capa {
+    margin-top: 1em !important;
+    font-weight: 100;
+    position: absolute;
+    margin-left: 0em;
+  }
+  .description-capa {
+    margin-top: 7em;
+    font-weight: 100;
+    position: absolute;
+    margin-left: 0em;
+  }
+}
+
+/* Desktop grande */
+@media (min-width: 1025px) {
+
+}
