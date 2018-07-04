@@ -1,3 +1,26 @@
 .secao-capa {
      height: 45em !important;
 }
+
+.secao-produtos{
+  background-color: white;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.secao-eusoublumenau {
+  background-color: #ff9100;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.desc-caption {
+  padding-left: 1.25em;
+}
+.title-caption {
+  font-weight: 100;
+}
