@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="308.01177"
+     inkscape:cx="-15.559659"
      inkscape:cy="279.53744"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,7 @@
      transform="translate(25.555027,-149.96727)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.61419773px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.15730217"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.61419773px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1e88e5;fill-opacity:1;stroke:none;stroke-width:0.15730217;"
        x="-13.800327"
        y="197.69498"
        id="text4596"
@@ -69,12 +69,12 @@
          id="tspan4594"
          x="-13.800327"
          y="197.69498"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.15730217">MODULARE ALOCAÇÃO</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#1e88e5;fill-opacity:1;stroke-width:0.15730217;">MODULARE ALOCAÇÃO</tspan></text>
     <path
        id="path4598"
        d="m 11.059199,158.65688 a 6.5407095,6.5407095 0 0 0 -6.5406999,6.54071 6.5407095,6.5407095 0 0 0 6.5406999,6.54071 6.5407095,6.5407095 0 0 0 6.54071,-6.54071 6.5407095,6.5407095 0 0 0 -6.54071,-6.54071 m -13.0814199,4.7311 a 5.4505913,5.4505913 0 0 0 -5.45052,5.4506 5.4505913,5.4505913 0 0 0 5.45052,5.45059 c 1.91866001,0 3.59746,-1.00291 4.55671,-2.48547 -1.46076,-1.8532 -2.37641999,-4.09885 -2.37641999,-6.60611 0,-0.43608 0,-0.8721 0.0874,-1.30814 -0.69795,-0.32706 -1.46075001,-0.50151 -2.26747001,-0.50151 m 26.1628299,0 c -0.80672,0 -1.56977,0.17445 -2.26739,0.50142 0.0873,0.43608 0.0873,0.8721 0.0873,1.30815 0,2.50727 -0.91564,4.75291 -2.37649,6.60612 0.95934,1.48256 2.63812,2.48547 4.55671,2.48547 a 5.4505913,5.4505913 0 0 0 5.450596,-5.45059 5.4505913,5.4505913 0 0 0 -5.450596,-5.4506 m -13.08142,12.71078 c -4.3604299,0 -13.0814299,2.18024 -13.0814299,6.54071 v 4.36047 H 24.140949 v -4.36047 c 0,-4.36047 -8.72093,-6.54071 -13.08143,-6.54071 m -15.9810799,2.11483 c -3.64104,0.63228 -8.0014701,2.33285 -8.0014701,5.14536 v 3.64099 h 6.5407201 v -4.36047 c 0,-1.70058 0.63202,-3.20494 1.46075,-4.42588 m 31.9622539,0 c 0.828472,1.22094 1.460752,2.7253 1.460752,4.42588 v 4.36047 h 6.540709 v -3.64099 c 0,-2.81251 -4.3605,-4.51309 -8.001461,-5.14536 z"
        inkscape:connector-curvature="0"
-       style="fill:#ffffff;stroke-width:2.18023634"
+       style="fill:#1e88e5;stroke-width:2.18023634;fill-opacity:1"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>

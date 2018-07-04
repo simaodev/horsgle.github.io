@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="282.11185"
+     inkscape:cx="-41.459579"
      inkscape:cy="0.96602873"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,9 +63,9 @@
        id="text4579"
        y="123.98961"
        x="-5.1137156"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.61419773px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.15730217"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.61419773px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;fill:#1e88e5;fill-opacity:1;stroke:none;stroke-width:0.15730217;"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.15730217"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#1e88e5;fill-opacity:1;stroke-width:0.15730217;"
          y="123.98961"
          x="-5.1137156"
          id="tspan4577"
@@ -74,7 +74,7 @@
        id="path4581"
        d="m 7.3997689,111.91496 c -1.2614802,0 -2.3613002,-0.7278 -2.89501,-1.77907 v 0 L 0.2835186,94.835854 0.1215288,94.124224 a 1.61734,1.61734 0 0 1 1.6173101,-1.61734 h 7.4074186 l 7.4398005,-10.62592 c 0.29097,-0.4205 0.77633,-0.69546 1.326232,-0.69546 0.550148,0 1.051208,0.27495 1.342369,0.71163 l 7.42361,10.60975 h 7.4074 a 1.61734,1.61734 0 0 1 1.617321,1.61734 l -0.0648,0.46904 -4.318312,15.542636 c -0.533649,1.05127 -1.63353,1.77907 -2.89501,1.77907 H 7.3993987 m 10.5127693,-26.297946 -4.852019,6.88987 h 9.704041 l -4.852022,-6.88987 m 0,13.35923 a 3.2346802,3.2346802 0 0 0 -3.234698,3.234676 3.2346802,3.2346802 0 0 0 3.234698,3.23468 3.2346802,3.2346802 0 0 0 3.23464,-3.23468 3.2346802,3.2346802 0 0 0 -3.23464,-3.234676 z"
        inkscape:connector-curvature="0"
-       style="fill:#ffffff;stroke-width:1.61733997"
+       style="fill:#1e88e5;stroke-width:1.61733997;fill-opacity:1"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>

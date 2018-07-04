@@ -1,3 +1,27 @@
 .secao-capa {
-     height: 45em !important;
+  height: 45em !important;
+}
+
+.capa-fabrica{
+  height: 25em !important;
+}
+
+.caption-capa {
+  margin-top: 3em !important;
+  font-weight: 100;
+  position: absolute;
+  margin-left: 7em;
+}
+.description-capa {
+  margin-top: 6.5em;
+  font-weight: 100;
+  position: absolute;
+  margin-left: 7em;
+}
+
+.desc-caption {
+  padding-left: 1.25em;
+}
+.title-caption {
+  font-weight: 100;
 }
