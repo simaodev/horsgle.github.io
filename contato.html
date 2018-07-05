@@ -89,27 +89,60 @@
 
       <div class="parallax-container secao-capa ">
         <div class="parallax">
-          <img src="images/architecture-buildings-city-533930.jpg">
+          <img src="images/antique-box-call-220197.jpg">
         </div>
       </div>
     </header>
 
-    <!-- <section class="secao-experiencia">
+    <section class="secao-contato">
       <div class="row">
-        <div class="col s12 l4">
+        <div class="col s12">
           <div class="center">
-            <h3 class="blue-text text-darken-2 title-caption">Experiência em entregar tecnologias de ponta a clientes exigentes.</h3>
-            <h5 class="desc-caption light grey-text left-align">Somos uma ponte entre você e o futuro.</h5>
-          </div>
-        </div>
-        <div class="col s12 l8">
-          <div class="left">
-            <h5 class="grey-text text-darken-2">5 anos entregando nosso melhor para os clientes.</h5>
-            <h6 class="grey-text  light">Desde o início, a Horsgle sempre contou com os melhores profissionais da área para criar tecnologia de ponta para seus projetos. <br><br>Hoje trabalhamos com soluções individuais para cada empresa ou segmento, utilizamos tecnologias de ponta atrelado com <br>entendimento de negócio de nossos clientes. <br>Pois só quem está no dia a dia que consegue entender cada aspecto de seu negócio.</h6>
+            <!-- <i class="material-icons blue-text text-lighten-2 large">timeline</i> -->
+            <!-- <h3 class="promo-caption blue-text text-darken-2" style="font-weight: 100;">Experiência em entregar tecnologias a clientes que sabem o caminho certo para o crescimento.</h3> -->
+            <h3 class="blue-text text-darken-2 title-caption">ENTRE EM CONTATO!</h3>
+            <h5 class="desc-caption light grey-text">Estamos esperando ansiosos para falar com você.</h5>
+            <h6 class="desc-caption light grey-text">Lembrando que se quiser podemos ligar para você ;)</h6>
           </div>
         </div>
       </div>
-    </section> -->
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6 offset-l3">
+            <div class="input-field">
+              <i class="material-icons prefix">account_box</i>
+              <input id="nome" type="text" class="validate" ng-model="contato.nome" ng-init="contato" ng-required="true">
+              <label for="nome">Nome</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">business</i>
+              <input id="empresa" type="text" class="validate" ng-model="contato.empresa" ng-required="true">
+              <label for="empresa">Empresa</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate" ng-model="contato.email" ng-required="true">
+              <label for="email">E-mail</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">phone</i>
+              <input id="telefone" id='phone_with_ddd' data-mask="(00)0 0000-0000"  type="text" class="validate"  ng-model="contato.telefone" ng-required="true">
+              <label for="telefone">Telefone</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="mensagem" type="text" class="materialize-textarea" ng-model="contato.mensagem" ng-required="true"></textarea>
+              <label for="mensagem">Mensagem</label>
+            </div>
+            <div class="col s12 center">
+              <a class="waves-effect waves-light btn blue"><i class="material-icons left white-text">send</i>ENVIAR</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
 
 
     <footer class="page-footer grey darken-3">
