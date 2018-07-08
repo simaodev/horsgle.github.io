@@ -17,6 +17,10 @@
   font-weight: 100;
 }
 
+.icons-contact:hover {
+  color: #0288d1 !important;
+}
+
 
 /* Telefones em paisagem a tablet em retrato */
 @media (max-width: 992px) {

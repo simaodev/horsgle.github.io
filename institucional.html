@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt_BR" ng-app="home">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -14,6 +14,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/horsgle.css">
@@ -47,29 +48,32 @@
 
       <div id="contato" class="modal">
         <div class="modal-content">
-          <h4 class="center blue-text text-darken-2">Contato</h4>
-          <p class="grey-text text-lighten-1 center">Preencha seus dados, logo ligamos para você ;)</p>
-          <div class="">
-            <div class="input-field col s6">
-              <input id="nome" type="text" class="validate" ng-model="contato.nome" ng-init="contato" ng-required="true">
-              <label for="nome">Nome</label>
+          <form name="cadastroContatoForm" ng-init="contato">
+            <h4 class="center blue-text text-darken-2"><i class="fab fa-whatsapp blue-text text-darken-2"></i> Contato</h4>
+            <p class="grey-text text-lighten-1 center">Esse primeiro contato vai para o nosso WhatsApp.</p>
+            <p class="grey-text text-lighten-1 center">Preencha seus dados, logo ligamos para você ;)</p>
+            <div class="">
+              <div class="input-field col s6">
+                <input id="nome" type="text" class="validate" ng-model="contato.nome" ng-init="contato" ng-required="true">
+                <label for="nome">Nome</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="empresa" type="text" class="validate" ng-model="contato.empresa" ng-required="true">
+                <label for="empresa">Empresa</label>
+              </div>
             </div>
-            <div class="input-field col s6">
-              <input id="empresa" type="text" class="validate" ng-model="contato.empresa" ng-required="true">
-              <label for="empresa">Empresa</label>
+            <div class="">
+              <div class="input-field col s12">
+                <input id="telefone" id='phone_with_ddd' data-mask="(00)0 0000-0000"  type="text" class="validate"  ng-model="contato.telefone" ng-required="true">
+                <label for="telefone">Telefone</label>
+              </div>
             </div>
           </div>
-          <div class="">
-            <div class="input-field col s12">
-              <input id="telefone" id='phone_with_ddd' data-mask="(00)0 0000-0000"  type="text" class="validate"  ng-model="contato.telefone" ng-required="true">
-              <label for="telefone">Telefone</label>
-            </div>
+          <div class="modal-footer center" style="text-align:center">
+            <a class="modal-action modal-close waves-effect waves-light btn blue lighten-2" ng-href="https://api.whatsapp.com/send?phone=5547996600232&text=Ol%C3%A1!%20Eu%20sou%20{{contato.nome}}%20-%20{{contato.empresa}}%3A%20Gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" ng-disabled="cadastroContatoForm.$invalid"><i class="material-icons left white-text">send</i>Me ligue</a>
           </div>
-        </div>
-        <div class="modal-footer center" style="text-align:center">
-          <a class="modal-action modal-close waves-effect waves-light btn blue lighten-2"><i class="material-icons left white-text">send</i>Me ligue</a>
-          <!-- <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a> -->
-        </div>
+        </form>
+
       </div>
 
       <section>
@@ -184,5 +188,7 @@
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/institucional.js"></script>
 
+    <script src="js/angularjs/angular.min.js"/></script>
+    <script src="js/angularjs/angular-home.js"/></script>
   </body>
 </html>
