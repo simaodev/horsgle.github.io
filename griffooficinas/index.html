@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt_BR" ng-app="home">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta property="og:site_name" content="Griffo Oficinas">
+  <meta property="og:title" content="Griffo Oficinas - Tecnologia para sua oficina" />
+  <meta property="og:description" content="Trabalhamos duro que nem você, para tornar sua oficina melhor!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="http://www.horsgle.com/griffooficinas">
+  <title>Griffo Oficinas</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../css/horsgle.css">
+  <link rel="stylesheet" href="../css/griffo.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="capa" ng-controller="capaCtrl">
+    <div class="navbar-fixed">
+
+      <nav class="navGriffo ">
+        <div class="nav-wrapper">
+          <div class="">
+            <header class="left">
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons grey-text">menu</i></a>
+            </header>
+            <a href="./index.html" class="brand-logo"><img class="icon" height="60em" src="../images/griffooficinas.svg" alt="Horsgle"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <!-- <li><a href="./institucional.html" class="grey-text">Institucional</a></li>
+              <li><a href="./servicos.html" class="grey-text">Serviços</a></li>
+              <li><a href="./produtos.html" class="grey-text">Produtos</a></li>
+              <li><a href="./contato.html" class="grey-text">Contato</a></li> -->
+              <li><a class="waves-effect waves-light btn blue lighten-2 modal-trigger" href="#contato"><i class="material-icons left white-text">phone</i>Ligamos para você</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="contato" class="modal">
+      <div class="modal-content">
+        <form name="cadastroContatoForm" ng-init="contato">
+          <h4 class="center blue-text text-darken-2"><i class="fab fa-whatsapp blue-text text-darken-2"></i> Contato</h4>
+          <p class="grey-text text-lighten-1 center">Esse primeiro contato vai para o nosso WhatsApp.</p>
+          <p class="grey-text text-lighten-1 center">Preencha seus dados, logo ligamos para você ;)</p>
+          <div class="">
+            <div class="input-field col s6">
+              <input id="nome" type="text" class="validate" ng-model="contato.nome" ng-init="contato" ng-required="true">
+              <label for="nome">Nome</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="empresa" type="text" class="validate" ng-model="contato.empresa" ng-required="true">
+              <label for="empresa">Empresa</label>
+            </div>
+          </div>
+          <div class="">
+            <div class="input-field col s12">
+              <input id="telefone" id='phone_with_ddd' data-mask="(00)0 0000-0000"  type="text" class="validate"  ng-model="contato.telefone" ng-required="true">
+              <label for="telefone">Telefone</label>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer center" style="text-align:center">
+          <a class="modal-action modal-close waves-effect waves-light btn blue lighten-2" ng-href="https://api.whatsapp.com/send?phone=5547996600232&text=Ol%C3%A1!%20Eu%20sou%20{{contato.nome}} - {{contato.empresa}} E gostaria de conhecer mais sobre o Griffo Oficinas." target="_blank" ng-disabled="cadastroContatoForm.$invalid"><i class="material-icons left white-text">send</i>Me ligue</a>
+        </div>
+      </form>
+
+    </div>
+
+    <section>
+      <div class="right">
+        <ul class="side-nav" id="mobile-demo">
+          <!-- <h5 class="orange-text text-darken-2 logonavleft center">Horsgle</h5> -->
+          <a href="./index.html"><img class="icon logonavleft" height="60em" src="../images/griffooficinascolor.svg" alt="Griffo Oficinas"></a>
+          <!-- <li><a class="grey-text text-lighten-1" href="./institucional.html"><i class="material-icons grey-text small">business</i>Institucional</a></li> -->
+          <!-- <li><a class="white-text" href="./promocoes.html"><i class="material-icons">card_giftcard</i> Promoções</a></li> -->
+          <!-- <li><a class="grey-text text-lighten-1" href="./servicos.html"><i class="material-icons grey-text small">code</i>Serviços</a></li>
+          <li><a class="grey-text text-lighten-1" href="./produtos.html"><i class="material-icons grey-text small">view_module</i>Produtos</a></li>
+          <li><a class="grey-text text-lighten-1" href="./contato.html"><i class="material-icons grey-text small">speaker_notes</i>Contato</a></li> -->
+          <li><a class="waves-effect waves-light btn blue lighten-2 modal-trigger" href="#contato"><i class="material-icons left white-text">phone</i>Ligamos para você</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="parallax-container" style="height:70em">
+      <h2 class="white-text caption-capa ">Trabalhamos duro que nem <b>você,</b></h2>
+      <h2 class="white-text caption-capa2 ">para tornar sua oficina <b>melhor!</b></h2>
+      <!-- <div id="particles-js"></div> -->
+
+      <div class="parallax">
+        <img src="../images/rect4529.jpg">
+      </div>
+    </div>
+  </header>
+
+  <section class="secao-destacada">
+    <div class="row">
+      <div class="col s12">
+        <div class="center">
+          <!-- <i class="material-icons blue-text text-lighten-2 large">restore</i> -->
+          <h3 class="title-caption blue-text">Se você chegou aqui é porque está cansado né?</h3>
+          <h5 class="light center grey-text">Toda gestão de oficina acaba sendo complicada com os "sistemas" atuais, temos um grande diferencial! Pensamos em você e no seu cliente e não somente em software.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+      <div class="col s12 l4">
+        <i class="material-icons blue-text text-lighten-2 large">check</i>
+        <h4 class="grey-text text-darken-2">Atendimento</h4>
+        <p class="grey-text">Usando o Griffo Oficinas, você vai perceber que desde o cadastro do cliente até o lançamento de peças nas O.S é totalmente pensado em você!</p>
+      </div>
+      <div class="col s12 l4">
+        <i class="material-icons blue-text text-lighten-2 large">add</i>
+        <h4 class="grey-text text-darken-2">Serviços</h4>
+        <p class="grey-text">O gerenciamento dos seus mecânicos e prestadores de serviço ficou muito mais facil de controlar com nosso metodo de clicar arrastar e soltar, você não precisa digitar nada!.</p>
+      </div>
+      <div class="col s12 l4">
+        <i class="material-icons blue-text text-lighten-2 large">loop</i>
+        <h4 class="grey-text text-darken-2">Cliente voltando :)</h4>
+        <p class="grey-text">Temos uma forma muito interessante de fidelizar seus cliente com você, venha conhecer nosso aplicativo Griffo Car.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao-orcamentos">
+    <div class="row">
+      <div class="col s12">
+        <div class="center">
+          <!-- <i class="material-icons blue-text text-lighten-2 large">restore</i> -->
+          <h3 class="title-caption white-text">Vamos conversar um pouco?</h3>
+          <h5 class="light center grey-text">Clique no botão a baixo e fale direto pelo WhatsApp.</h5>
+          <br>
+          <a class="waves-effect waves-light btn green" href="https://api.whatsapp.com/send?phone=5547996600232&text=Olá eu vim pelo site, e gostaria de saber mais!" target="_blank">Entrar em contato</a>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+
+    </div>
+  </section>
+
+
+  <footer class="page-footer grey darken-3">
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <a href="#"><img class="icon logofooter" height="60em" src="../images/griffooficinas.svg" alt="Griffo Oficinas"></a>
+        <h6 class="grey-text text-lighten-1 descfooter">Griffo Oficinas foi criado porque sabemos como é dificil e dura a vida dentro de uma oficina, e queremos trazer facilidade e tecnologia para ajudar a vida dos mecânicos!</h6>
+      </div>
+      <!-- <div class="col l4 offset-l4 s12 m4 offset-m4 ">
+        <h5 class="grey-text text-lighten-1">Links úteis</h5>
+        <ul>
+          <li><i class="material-icons grey-text text-lighten-1 small icon-footer">business</i><a class="grey-text text-lighten-1 content-footer" href="./institucional.html"> Institucional</a></li>
+          <li><i class="material-icons grey-text text-lighten-1 small icon-footer">code</i><a class="grey-text text-lighten-1 content-footer" href="./servicos.html"> Serviços</a></li>
+          <li><i class="material-icons grey-text text-lighten-1 small icon-footer">view_module</i><a class="grey-text text-lighten-1 content-footer" href="./produtos.html"> Produtos</a></li>
+          <li><i class="material-icons grey-text text-lighten-1 small icon-footer">contacts</i><a class="grey-text text-lighten-1 content-footer" href="./contato.html"> Contato</a></li>
+        </ul>
+      </div> -->
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container grey-text">
+        © 2019 Horsgle Development, All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+
+  </datalist>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/materialize.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/jquery.mask.min.js"></script>
+  <script src="../js/anime.min.js"></script>
+  <script src="../js/particles.min.js"></script>
+  <script src="../js/horsgle.js"></script>
+
+  <script src="../js/angularjs/angular.min.js"/></script>
+  <script src="../js/angularjs/angular-home.js"/></script>
+</body>
+</html>
