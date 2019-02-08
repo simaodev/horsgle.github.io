@@ -1,14 +1,4 @@
 
-.navGriffo{
-    background-color: #592138 !important;
-}
-
-
-.secao-orcamentos{
-    background-color: #592138;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
 
 @font-face{
     font-family: roboto-regular;
@@ -51,7 +41,7 @@ p{
 .caption-capa {
   margin-top: 6em;
   font-weight: 100;
-  position: absolute;
+  /* position: absolute; */
   /* padding-left: 1.6em; */
   text-align: center;
 }
@@ -59,7 +49,7 @@ p{
 .caption-capa2 {
   /* margin-top: 0.1em; */
   font-weight: 100 !important;
-  position: absolute;
+  /* position: absolute; */
   /* padding-left: 2.3em; */
   text-align: center !important;
 }
@@ -251,4 +241,17 @@ nav .button-collapse i {
  /* icon prefix color */
  .input-field .prefix {
    color: #bbdefb !important;
+ }
+
+
+
+ .navGriffo{
+     background-color: #592138 !important;
+ }
+
+
+ .secao-orcamentos{
+     background-color: #592138;
+     padding-top: 2em;
+     padding-bottom: 2em;
  }
