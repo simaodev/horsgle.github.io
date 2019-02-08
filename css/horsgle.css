@@ -46,10 +46,10 @@ p{
 
 .caption-capa2 {
   /* margin-top: 0.1em; */
-  font-weight: 100;
+  font-weight: 100 !important;
   /* position: absolute; */
   /* padding-left: 2.3em; */
-  text-align: center;
+  text-align: center !important;
 }
 
 .caption-produtos {
@@ -161,7 +161,7 @@ nav .button-collapse i {
 /* Tablet em retrato a paisagem e desktop */
 @media (max-width: 1024px) and (min-width: 769px) {
   .caption-capa {
-    margin-top: 5em;
+    margin-top: 5em !important;
     /* margin-left: 2em; */
   }
   .caption-capa2 {
@@ -170,7 +170,7 @@ nav .button-collapse i {
     /* padding-left: 1.6em; */
   }
   .caption-produtos {
-    margin-left: 4em
+    margin-left: 4em;
   }
 }
 
