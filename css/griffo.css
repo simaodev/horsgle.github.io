@@ -40,10 +40,10 @@ p{
 
 .caption-capa {
   margin-top: 6em;
-  font-weight: 100;
+  font-weight: 100 !important;
   /* position: absolute; */
   /* padding-left: 1.6em; */
-  text-align: center;
+  text-align: center !important;
 }
 
 .caption-capa2 {
