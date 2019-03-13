@@ -18,6 +18,22 @@
   padding-bottom: 2em;
 }
 
+.secao-griffo {
+  background-color: #592138;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.secao-mensagem {
+  background-color: #1e88e5;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
 .desc-caption {
   padding-left: 1.25em;
 }
