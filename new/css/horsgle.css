@@ -1,0 +1,220 @@
+@font-face{
+    font-family: roboto-regular;
+    src:url(../fonts/roboto/Roboto-Regular.woff);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Só para dar espaçamento na primeira frase dos parágrafos  */
+p{
+    text-indent: 2rem;
+}
+
+.ultra-light {
+  style="font-weight: 100;
+}
+
+/* Alinhando título principal, mas pode ser usado em outros locais  */
+.banner{
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.capa {
+     height: 50em !important;
+}
+
+.caption-capa {
+  margin-top: 6em;
+  font-weight: 100;
+  position: absolute;
+  margin-left: 0.1em;
+}
+
+.caption-produtos {
+  font-weight: 100;
+  position: absolute;
+}
+
+.secao-destacada{
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.secao-about{
+    height: 500px
+}
+
+/* Alinhando título da seção destacada  */
+.secao-destacada h2{
+    text-align: center;
+}
+
+/* Só removendo o espaçamento superior do footer  */
+.page-footer{
+    padding-top: 0;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  color: #ebb100ff;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+nav {
+    height: 6em;
+    line-height: 6em;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 6em;
+    line-height: 6em;
+}
+
+nav .button-collapse i {
+    height: 6em;
+    line-height: 3em;
+}
+
+
+
+.logonavleft {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+.logofooter {
+  margin-left: 3.5em;
+  margin-top: 1em;
+}
+
+.title-caption {
+  font-weight: 100;
+}
+
+.card-carousel {
+  box-shadow:0 0 0 0 !important;
+  background: rgba(0,0,0,0) !important;
+  padding-right: 0.5em;
+}
+
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 992px) {
+  .caption-capa {
+    margin-top: 3em;
+  }
+  .card-carousel {
+    box-shadow:0 0 0 0 !important;
+    background: rgba(0,0,0,0) !important;
+    padding-right: 0.5em;
+  }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .caption-capa {
+    margin-left: 2em;
+  }
+  .caption-produtos {
+    margin-left: 4em
+  }
+}
+
+/* Desktop grande */
+@media (min-width: 1025px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 6em;
+      line-height: 6em;
+  }
+  .modal {
+    left: 0;
+    right: 0;
+    padding: 0;
+    /* max-height: 40%; */
+    width: 35%;
+    will-change: top, opacity;
+  }
+  .caption-capa {
+    margin-left: 5.5em;
+  }
+  .caption-produtos {
+    padding-left: 10em
+  }
+}
+
+/*---- LABELS ----*/
+
+/* label color */
+ .input-field label {
+   color: #1976d2 !important;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus {
+   color: #1976d2 !important;
+ }
+
+ .input-field input[type=textarea]:focus {
+   color: #1976d2 !important;
+ }
+ /* label underline focus color */
+ .input-field input:focus {
+   border-bottom: 1px solid #1976d2 !important;
+   box-shadow: 0 1px 0 0 #1976d2 !important;
+ }
+ .input-field textarea:focus {
+   border-bottom: 1px solid #1976d2 !important;
+   box-shadow: 0 1px 0 0 #1976d2 !important;
+ }
+ /* valid color */
+ /*.input-field input[type=text].valid {
+   border-bottom: 1px solid #000 !important;
+   box-shadow: 0 1px 0 0 #000 !important;
+ }*/
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid #000 !important;
+   box-shadow: 0 1px 0 0 #000 !important;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #1976d2 !important;
+ }
+ /* icon prefix color */
+ .input-field .prefix {
+   color: #bbdefb !important;
+ }

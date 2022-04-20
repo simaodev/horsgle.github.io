@@ -1,0 +1,103 @@
+.home{
+  background-color: #f4f4f4;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+.center{
+
+}
+
+#particles-js {
+  background: #1169e233;
+}
+
+.logo{
+  image-orientation: center;
+  background-image: url("../images/marketing.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  width: auto;
+  height: 600px;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 10px;
+
+}
+
+.imagem{
+  text-align: left;
+}
+.barra{
+  background-color: #00adef;
+  width: auto;
+  height: 8px;
+}
+
+.icon-footer {
+  vertical-align: sub;
+}
+.content-footer {
+  vertical-align: super;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-footer{
+  padding-top: 0;
+}
+
+.descfooter {
+  margin-left: 3.5em;
+  margin-top: 1em;
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 992px) {
+  .brand-logo{
+    margin-top:0.5em;
+    /* margin-left:0.5em; */
+    left: 50%;
+  }
+  #particles-js {
+    height: 45.51em;
+  }
+  .descfooter {
+    margin-left: 1em;
+    margin-top: 1em
+  }
+
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (max-width: 1024px) and (min-width: 769px) {
+  nav .brand-logo{
+    margin-top:0.5em;
+    margin-left:0.5em;
+  }
+  #particles-js {
+    height: 45.6em;
+  }
+}
+
+/* Desktop grande */
+@media (min-width: 1025px) {
+  .brand-logo{
+    margin-top:0.5em;
+    margin-left:5em;
+  }
+  #particles-js {
+    height: 45.8em;
+  }
+}

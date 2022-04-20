@@ -1,0 +1,57 @@
+.secao-experiencia{
+  background-color: white;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.secao-capa {
+     height: 45em !important;
+}
+
+.secao-mensagem {
+  background-color: #1e88e5;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.secao-somos {
+  background-color: white;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.secao-somos-conteudo {
+  margin-left: 8em;
+}
+
+.desc-caption {
+  padding-left: 0.75em;
+}
+.title-caption {
+  font-weight: 100;
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 992px) {
+  .secao-somos-conteudo {
+    margin-left: 0em;
+  }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .secao-somos-conteudo {
+    margin-left: 0em;
+  }
+}
+
+/* Desktop grande */
+@media (min-width: 1025px) {
+
+}

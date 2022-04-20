@@ -1,0 +1,16 @@
+.backgroundBody {
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: right;
+}
+
+@media (max-width: 768px) {
+  .backgroundBody {
+    /* background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: right; */
+    background: none;
+  }
+}
